@@ -4,7 +4,14 @@
   "description": "",
   "main": "bubblesort.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:save": "jest --findRelatedTests tests/save/*.js",
+    "test:watch": "jest --watchAll",
+    "test:bubble": "jest tests/bubblesort.test.js",
+    "test:insertion": "jest tests/insertion.test.js",
+    "test:merge": "jest tests/mergesort.test.js",
+    "test:quicksort": "jest tests/quicksort.test.js",
+    "test:selection": "jest tests/selectionsort.test.js"
   },
   "repository": {
     "type": "git",
