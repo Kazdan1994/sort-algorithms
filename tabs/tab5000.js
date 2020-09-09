@@ -5000,3 +5000,5 @@ const tab5000 = [
     2477,
     1522,
 ]
+
+module.exports = tab5000

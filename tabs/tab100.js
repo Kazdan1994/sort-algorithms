@@ -107,3 +107,5 @@ const tab100 = [
     29,
     78
 ]
+
+module.exports = tab100
