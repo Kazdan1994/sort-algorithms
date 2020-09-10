@@ -5,7 +5,7 @@
   "main": "bubblesort.js",
   "scripts": {
     "test": "jest",
-    "test:save": "jest --findRelatedTests tests/save/*.js",
+    "test:corrections": "jest --findRelatedTests tests/corrections/*.js",
     "test:watch": "jest --watchAll",
     "test:bubble": "jest tests/bubblesort.test.js",
     "test:insertion": "jest tests/insertion.test.js",
